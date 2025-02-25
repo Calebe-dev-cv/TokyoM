@@ -1,0 +1,17 @@
+{
+  "name": "cors-proxy-server",
+  "version": "1.0.0",
+  "description": "To create a CORS proxy and use it in a React.js application, follow these steps:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "request": "^2.88.2"
+  },
+  "type": "commonjs"
+}
