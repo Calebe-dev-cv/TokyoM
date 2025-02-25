@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
 import "../../styles/info.css";
-import ReadMore from "../readmore/readmore";
+import ReadMore from "../readmore/Readmore";
 function Info() {
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
