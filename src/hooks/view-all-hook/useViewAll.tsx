@@ -3,7 +3,7 @@ import axios from "axios";
 import { mangaData } from "../../model/manga";
 const useViewAll = (params:any) => {
   const apiUrl = "https://api.mangadex.org/manga";
-  const proxyUrl = `http://localhost:8080/proxy?url=`;
+  const proxyUrl = `/api/proxy?url=`;
 
   const [mangaData, setMangaData] = useState<mangaData>({
     mangaIds: [],
