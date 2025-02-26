@@ -65,6 +65,7 @@ function Reading() {
       sessionStorage.setItem("currentNumber", nextChapter.attributes.chapter);
       navigate(`?id=${nextChapter.id}`);
       setCurrentChapterIndex(currentChapterIndex + 1);
+      window.scrollTo(0, 0);
     }
   };
 
@@ -74,6 +75,7 @@ function Reading() {
       sessionStorage.setItem("currentNumber", previousChapter.attributes.chapter);
       navigate(`?id=${previousChapter.id}`);
       setCurrentChapterIndex(currentChapterIndex - 1);
+      window.scrollTo(0, 0);
     }
   };
 
