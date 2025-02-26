@@ -26,7 +26,7 @@ function PopularByGernes() {
             setSelectedGern(JSON.parse(storedIds)[0]);
           }
         } else {
-          const resp = await axios.get("../dev-data/tags.json");
+          const resp = await axios.get("/dev-data/tags.json");
           const ids = resp.data.data.map((tag) => tag.id);
           const names = resp.data.data.map((tag) => tag.attributes.name.pt);
 
