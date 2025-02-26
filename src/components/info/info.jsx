@@ -16,7 +16,7 @@ function Info() {
   const mangaTitle = sessionStorage.getItem("mangaTitle");
   const mangaAuthor = sessionStorage.getItem("mangaAuthor");
   const apiUrl = `https://api.mangadex.org/manga/${id}/feed`;
-  const proxyUrl = `/api/proxy?url=${encodeURIComponent(
+  const proxyUrl = `https://tokyo-m.vercel.app/api/proxy?url=${encodeURIComponent(
     apiUrl
   )}`;
   function sendInfo(index) {

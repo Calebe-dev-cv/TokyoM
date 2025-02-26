@@ -96,7 +96,7 @@ To create a CORS proxy and use it in a React.js application, follow these steps:
        const [queryParams, setQueryParams] = useState("");
        const [selectedGern, setSelectedGern] = useState("");
        const apiUrl = "https://api.mangadex.org/manga";
-       const proxyUrl = `/api/proxy?url=`;
+       const proxyUrl = `https://tokyo-m.vercel.app/api/proxy?url=`;
 
         useEffect(() => {
         	// Params constructing

@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import "../../styles/reading.css";
 
 function Reading() {
-  const proxyUrl = `/api/proxy?url=`;
+  const proxyUrl = `https://tokyo-m.vercel.app/api/proxy?url=`;
 
   const [chapterData, setChapterData] = useState([]);
   const [chapterHash, setChapterHash] = useState("");
